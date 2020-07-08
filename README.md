@@ -20,6 +20,7 @@ Try writing lines of code to test your function in the testpiglatin.py file.
 While you can take on this puzzle in any way you please, we would recommend building up to a full solution in the following order:
 1. Create a function called pig_latinize_one_word that accepts a single word as an argument and returns it in Pig Latin.
     * You'll likely want to split this into cases for words that start with vowels and those that do not.
+    * Also, try to make sure that "speak" goes to "eakspay" and not "peaksay."
 2. Next, create the general pig_latinize function that accepts an entire phrase.
     * Make sure to use your pig_latinize_one_word function. It will make this step far easier.
 3. Stretches: How does your function handle capital letters? What about punctuation?
